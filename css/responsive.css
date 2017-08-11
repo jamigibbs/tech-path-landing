@@ -1,0 +1,99 @@
+/*------------------------------------------------------------------
+[Stylesheet]
+Responsiveness Fixes
+-------------------------------------------------------------------*/
+
+@media (max-width: 479px) {
+	.mockup{
+		display:none !important
+	}
+
+	#main_content {
+		text-align:left!important;
+		margin-right:15px;
+	}
+
+	.social_icons_container {
+    	text-align:left!important
+	}
+
+	.content_container h2 {
+		font-size: 2rem;
+		line-height:2rem;
+	}
+
+	.input-field .prefix {
+		display:none;
+	}
+
+	.input-field .prefix ~ input {
+		margin-left:0;
+		width:100%;
+	}
+
+	.input-field .prefix ~ label {
+    	margin-left: 0;
+    }
+
+    .newsletter_form button {
+		margin-top:0.5rem;
+		margin-left:0;
+	}
+
+	.container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.navigation_desktop ul {
+    	margin-top:0rem;
+	}
+
+}
+
+@media (min-width: 480px) and (max-width: 767px) {
+	.mockup{
+		display:none !important
+	}
+
+	#main_content {
+		text-align:center!important;
+		margin:0 auto;
+		margin-top: -5.285rem;
+	}
+
+	.social_icons_container {
+    	text-align:center!important
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.mockup.mockup-right img { width:18rem; }
+	.mockup.mockup-left img { width:18rem; }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.mockup.mockup-right img { margin-right:0; width:25rem; }
+	.mockup.mockup-left img { margin-left:0; width:25rem; }
+}
+
+@media (min-width: 1200px) {
+	.mockup.mockup-right img { margin-right:0; }
+	.mockup.mockup-left img { margin-left: 20px; }
+}
+
+@media (min-width: 1500px) {
+	.mockup.mockup-right img { margin-right:3%; }
+	.mockup.mockup-left img { margin-left:3%; }
+}
+
+@media (min-width: 1700px) {
+	.mockup.mockup-right img { margin-right:10%; }
+	.mockup.mockup-left img { margin-left:10%; }
+}
+
+@media (min-width: 1900px) {
+	.mockup.mockup-right img { margin-right:19%; }
+	.mockup.mockup-left img { margin-left:19%; }
+}
